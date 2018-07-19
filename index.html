@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Masteralb - wwd 01</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/solid.css" integrity="sha384-S2gVFTIn1tJ/Plf+40+RRAxBCiBU5oAMFUJxTXT3vOlxtXm7MGjVj62mDpbujs4C" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/fontawesome.css" integrity="sha384-0b7ERybvrT5RZyD80ojw6KNKz6nIAlgOKXIcJ0CV7A6Iia8yt2y1bBfLBOwoc9fQ" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <img src="img/logo_top.png">
+    </header>
+    <main>
+        <section>
+            <!-- REGISTER FORM -->
+            <h1>Register Form</h1>
+            <form action="#" method="post">
+                <div class="input-container">
+                    <label for="register_username">
+                        <i class="fa fa-user fa-lg icon"></i>
+                    </label>
+                    <input placeholder="Username" type="text" name="username" id="register_username">
+                </div>
+                <div class="input-container">
+                    <label for="register_password">
+                        <i class="fa fa-unlock-alt fa-lg icon"></i>
+                    </label>
+                    <input placeholder="Password" type="password" name="password" id="register_password">
+                </div>
+                <div class="input-container">
+                    <label for="register_confirm">
+                        <i class="fa fa-unlock-alt fa-lg icon"></i>
+                    </label>
+                    <input placeholder="Confirm Password" type="password" name="confirm" id="register_confirm">
+                </div>
+                <div class="input-container">
+                    <label for="register_email">
+                        <i class="fa fa-envelope fa-lg icon"></i>
+                    </label>
+                    <input placeholder="Email" type="email" name="email" id="register_email">
+                </div>
+                <div class="input-container">
+                    <label for="register_location">
+                        <i class="fa fa-map-marked fa-lg icon"></i>
+                    </label>
+                    <select name="location" id="register_location">
+                        <option selected disabled hidden value="none">Your Location</option>
+                        <option value="amsterdam">Amsterdam</option>
+                        <option value="london">London</option>
+                        <option value="moscow">Moscow</option>
+                        <option value="warsaw">Warsaw</option>
+                    </select>
+                </div>
+                <input type="checkbox" name="terms" id="register_terms">
+                <label for="register_terms">I have read and accept the terms of use.</label>
+                <button type="submit">Sign up</button>
+            </form>
+            <!-- SEND EMAIL FORM -->
+            <h1>Send Email</h1>
+            <form action="#" method="post">
+                <div class="input-container">
+                    <label for="send_username">
+                        <i class="fa fa-user fa-lg icon"></i>
+                    </label>
+                    <input placeholder="Your Name" type="text" name="name" id="send_username">
+                </div>
+                <div class="input-container">
+                    <label for="send_email">
+                        <i class="fa fa-envelope fa-lg icon"></i>
+                    </label>
+                    <input placeholder="Your Email" type="email" name="email" id="send_email">
+                </div>
+                <textarea placeholder="Type your message..." name="message" id="send_message" cols="30" rows="10"></textarea>
+                <input type="checkbox" name="copy" id="send_copy">
+                <label for="send_copy">Send a copy to my Email</label>
+                <button type="submit">Send Email</button>
+            </form>
+        </section>
+        <!-- SIGN IN FORM -->
+        <section>
+            <h1>Sign In Form</h1>
+            <form action="#" method="post">
+                <div class="input-container">
+                    <label for="signin_username">
+                        <i class="fa fa-user fa-lg icon"></i>
+                    </label>
+                    <input placeholder="Username" type="text" name="username" id="signin_username">
+                </div>
+                <div class="input-container">
+                    <label for="signin_password">
+                        <i class="fa fa-unlock-alt fa-lg icon"></i>
+                    </label>
+                    <input placeholder="Password" type="password" name="password" id="signin_password">
+                </div>
+                <span>
+                    <input type="checkbox" name="rememberme" id="signin_rememberme">
+                    <label for="signin_rememberme">Remember me</label>
+                    <button type="submit">Sign In</button>
+                </span>
+            </form>
+            <!-- RECOVER FORM -->
+            <h1>Recover Form</h1>
+            <form action="#" method="post">
+                <div class="input-container">
+                    <label for="recover_email">
+                        <i class="fa fa-envelope fa-lg icon"></i>
+                    </label>
+                    <input placeholder="Enter Your Email" type="email" name="email" id="recover_email">
+                </div>
+                <div class="input-container">
+                    <label for="recover_tel">
+                        <i class="fa fa-phone fa-lg icon"></i>
+                    </label>
+                    <input placeholder="Enter Your Phone Number" type="tel" name="email" id="recover_tel">
+                </div>
+                <span>
+                    <button type="submit">Send</button>
+                    <button disabled>Done</button>
+                </span>
+            </form>
+            <!-- SUBSCRIBE FORM -->
+            <h1>Subscribe Form</h1>
+            <form action="#" method="post">
+                <div class="input-container">
+                    <label for="subscribe_email">
+                        <i class="fa fa-envelope fa-lg icon"></i>
+                    </label>
+                    <input placeholder="Enter Your Email" type="email" name="email" id="subscribe_email">
+                </div>
+                <span>
+                    <button type="submit">Subscribe</button>
+                    <button type="reset" class="btn-red">No, Thanks</button>
+                </span>
+            </form>
+            <!-- FOOTER -->
+            <footer>
+                <img src="img/logo_bot.png">
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
