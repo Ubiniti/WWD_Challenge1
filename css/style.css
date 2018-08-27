@@ -1,9 +1,9 @@
 body {
-background: url('../img/bg.png') center no-repeat;
-background-size: cover;
-margin: auto;
-max-width: 1200px;
-padding: 65px;
+    background: url('../img/bg.png') center no-repeat;
+    background-size: cover;
+    margin: auto;
+    max-width: 1200px;
+    padding: 65px;
 }
 
 @media all and (max-width:  450px) {
@@ -13,9 +13,9 @@ padding: 65px;
 }
 
 header, footer {
-margin: auto;
-width: max-content;
-opacity: 0.5;
+    margin: auto;
+    width: max-content;
+    opacity: 0.5;
 }
 
 @media all and (max-width:  550px) {
